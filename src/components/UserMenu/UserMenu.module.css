@@ -1,0 +1,30 @@
+.userMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.userMenu__text {
+  margin-left: 10px;
+  margin-right: 30px;
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(77, 6, 47);
+}
+
+.userMenu__btn {
+  padding: 4px;
+  font-size: 22px;
+  /* color: rgb(77, 6, 47); */
+  background-color: rgba(77, 6, 47, 0.301);
+  border-color: none;
+  border-radius: 4px;
+  transition: 300ms linear;
+}
+
+.userMenu__btn:focus,
+.userMenu__btn:hover {
+  color: bisque;
+  background-color: rgb(77, 6, 47);
+  box-shadow: 5px 10px 10px rgba(77, 6, 47, 0.562);
+}

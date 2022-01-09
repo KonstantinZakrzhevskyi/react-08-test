@@ -1,0 +1,20 @@
+.link {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 0;
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(77, 6, 47);
+  text-decoration: none;
+}
+
+.link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.activeLink {
+  composes: link;
+  color: bisque;
+}
